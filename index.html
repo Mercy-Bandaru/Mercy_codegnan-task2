@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+  <h2>Registration form</h2>
+  <fieldset>
+  <form action="login.html">
+    <p>Name : <input type="text" name="name" required></p>
+    <p>Email : <input  type="email" name="email" id="email"></p> 
+    <p>Password : <input type="password" id="password" required></p>
+    <p>Confirm Password : <input type="password" id="confirm_password" required></p>
+    <p>Please select your gender<br><input type="radio" name="gender" value="male"/>male
+    <input type="radio" name="gender" value="female"/>female</p>
+    <p>Select your State   
+    <select> 
+            <option value="Telangana">Telangana</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Tamilnadu">Tamilnadu</option>
+            <option value="kerala">Kerala</option>
+        </select>
+    </p>
+    <p>Enter your Address</p>
+    <p><textarea rows="5" cols="20" name="area"></textarea></p>
+    <button>Submit</button>
+    </fieldset>
+  </form>
+</body>
+</html>
