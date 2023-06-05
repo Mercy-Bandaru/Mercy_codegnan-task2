@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Page</title>
+    <link rel="stylesheet" href="style1.css"/>
 </head>
 <body>
-  <h2>Registration form</h2>
-  <fieldset>
+    <div class="main">
+  <h2 class="heading">Registration form</h2>
+  
+    <div class="img0">
+        <img src="https://www.shutterstock.com/image-vector/registration-required-men-fill-form-260nw-1802612908.jpg" alt="image"/></div>
+    
+  
+    <div class="container">
   <form action="login.html">
     <p>Name : <input type="text" name="name" required></p>
     <p>Email : <input  type="email" name="email" id="email"></p> 
@@ -16,7 +23,7 @@
     <p>Confirm Password : <input type="password" id="confirm_password" required></p>
     <p>Please select your gender<br><input type="radio" name="gender" value="male"/>male
     <input type="radio" name="gender" value="female"/>female</p>
-    <p>Select your State   
+    <p></textarea>Select your State   
     <select> 
             <option value="Telangana">Telangana</option>
             <option value="Andhra Pradesh">Andhra Pradesh</option>
@@ -27,8 +34,10 @@
     </p>
     <p>Enter your Address</p>
     <p><textarea rows="5" cols="20" name="area"></textarea></p>
-    <button>Submit</button>
-    </fieldset>
+    <button class="submit">Submit</button>
+
   </form>
+</div>
+</div>
 </body>
 </html>

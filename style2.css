@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwLhSrr2po6MvYzEYm5uKlJMAtmdcHkpxnPDFaEG1nqHn0YnjdNtKtvSqjpe087kX5H1dMuPX98zE&usqp=CAU&ec=48600112);
+    background-size: cover;
+    min-height: auto;
+}
+.heading2{
+    padding-left: 10px;
+    padding-right: 330px;
+    text-align: right;
+    font-size: 50px;
+    padding-top: 0px;
+}
+.contain{
+    display: inline-block;
+    font-size: 25px;
+    float: center;
+    border:5px solid black;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+   margin-top: 8px;
+    margin-left:420px;
+}
+.submit{
+   margin-left: 120px;
+    font-weight: 700;
+ }
+.submit:hover{
+    background-color: black;
+    color: white;
+ }
+ .forgot{
+ width: 100%;
+ text-align: center;
+font-size: 17px;
+
+}
+.forgot a{
+ text-decoration: none;
+ color: black;
+}
+.forgot a:hover{
+ text-decoration: underline;
+ color: blue;
+}
+.img{
+    float:left;
+}
