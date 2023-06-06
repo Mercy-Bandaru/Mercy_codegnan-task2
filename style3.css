@@ -1,0 +1,5 @@
+body{
+    background-image: url(home_img-bg.png);
+    background-size: cover;
+    min-height: auto;
+}
